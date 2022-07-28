@@ -9,6 +9,7 @@ body {
   /*
     #341e48 (purple)
     #E8117F (pink)
+    #E6DB74 (yellow)
   */
 }
 
@@ -41,4 +42,45 @@ nav li a {
 
 nav li:hover {
   background-color: #272822;
+}
+
+.form-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6db74;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #4e5047;
+  margin-left: 25%;
+  margin-top: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input.btn {
+  background-color: #628b68;
+  color: #f8f8f2;
+}
+
+input.btn:hover {
+  background-color: #37583c;
+  cursor: pointer;
 }
