@@ -44,7 +44,7 @@ nav li:hover {
   background-color: #272822;
 }
 
-.form-heading {
+.heading {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
@@ -83,4 +83,42 @@ input.btn {
 input.btn:hover {
   background-color: #37583c;
   cursor: pointer;
+}
+
+img.profile {
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid #f8f8f2;
+  display: inline;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+img.profile:hover {
+  opacity: 0.5;
+}
+
+div {
+  margin: 1.5rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+li:hover {
+  font-size: 15px;
+}
+
+h1.welcome {
+  text-align: center;
+  color: #e8117f;
+  font-size: 9rem;
+}
+
+div.main {
+  background-color: #4e5047;
+  border: 5px solid #f8f8f2;
+  border-radius: 20px;
+  padding: 10px;
 }
